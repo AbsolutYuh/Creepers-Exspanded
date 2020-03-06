@@ -1,21 +1,10 @@
 {
   "id_map": {},
-  "mod_elements": [
-    {
-      "name": "CE",
-      "type": "tab",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "itemGroup.tabce": "CE TEST"
-    }
+    "en_us": {}
   },
   "workspaceSettings": {
     "modid": "creepers_exspanded",
