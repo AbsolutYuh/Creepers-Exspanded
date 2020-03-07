@@ -1,1 +1,38 @@
-{}
+{
+  "spellicup": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "creepers_exspanded:icup",
+        "stream": false
+      }
+    ]
+  },
+  "icupdrop": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "creepers_exspanded:icupdrop",
+        "stream": false
+      }
+    ]
+  },
+  "doit": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "creepers_exspanded:doit",
+        "stream": false
+      }
+    ]
+  },
+  "gamecubestartup": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "creepers_exspanded:gamecube_startup",
+        "stream": false
+      }
+    ]
+  }
+}

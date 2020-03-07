@@ -1,10 +1,81 @@
 {
-  "id_map": {},
-  "mod_elements": [],
+  "id_map": {
+    "GUI": 1,
+    "ENTITY": 10
+  },
+  "mod_elements": [
+    {
+      "name": "ExspandedCreepers",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GameCubeCreeper",
+      "type": "mob",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 5,
+        "1": 6
+      }
+    },
+    {
+      "name": "TieFightercreeper",
+      "type": "mob",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 7,
+        "1": 8
+      }
+    },
+    {
+      "name": "Spellicup",
+      "type": "mob",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 9,
+        "1": 10
+      }
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "spellicup",
+      "file": "icup",
+      "category": "master"
+    },
+    {
+      "name": "icupdrop",
+      "file": "icupdrop",
+      "category": "master"
+    },
+    {
+      "name": "doit",
+      "file": "doit",
+      "category": "master"
+    },
+    {
+      "name": "gamecubestartup",
+      "file": "gamecube_startup",
+      "category": "master"
+    }
+  ],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "entity.tiefightercreeper.name": "Tie Fightercreeper",
+      "entity.spellicup.name": "Spellicup",
+      "entity.gamecubecreeper.name": "Game Cube Creeper",
+      "itemGroup.tabexspandedcreepers": "EC"
+    }
   },
   "workspaceSettings": {
     "modid": "creepers_exspanded",

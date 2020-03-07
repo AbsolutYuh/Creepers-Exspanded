@@ -26,6 +26,7 @@ import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.potion.Potion;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -67,6 +68,14 @@ public class Elementscreepers_exspanded implements IFuelHandler, IWorldGenerator
 	}
 
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
+		ResourceLocation sound0 = new ResourceLocation("creepers_exspanded", "spellicup");
+		event.getRegistry().register(new net.minecraft.util.SoundEvent(sound0).setRegistryName(sound0));
+		ResourceLocation sound1 = new ResourceLocation("creepers_exspanded", "icupdrop");
+		event.getRegistry().register(new net.minecraft.util.SoundEvent(sound1).setRegistryName(sound1));
+		ResourceLocation sound2 = new ResourceLocation("creepers_exspanded", "doit");
+		event.getRegistry().register(new net.minecraft.util.SoundEvent(sound2).setRegistryName(sound2));
+		ResourceLocation sound3 = new ResourceLocation("creepers_exspanded", "gamecubestartup");
+		event.getRegistry().register(new net.minecraft.util.SoundEvent(sound3).setRegistryName(sound3));
 	}
 
 	@Override
